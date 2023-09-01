@@ -1,0 +1,3 @@
+// Generate a class Document with keywords and sections
+// generate a Open API Spec
+// Write unit tests
