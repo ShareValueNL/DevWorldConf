@@ -1,0 +1,52 @@
+openapi: 3.0.0
+info:
+  title: Twitter API
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+paths:
+  /api/twitter/{username}:
+    get:
+      summary: Get Twitter profile information for a given username
+      parameters:
+        - name: username
+          in: path
+          required: true
+          description: The Twitter username to search for
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  username:
+                    type: string
+                    description: The Twitter username
+                  data:
+                    type: object
+                    description: The Twitter profile information
+                    properties:
+                      followers:
+                        type: integer
+                        description: The number of followers the user has
+                      screen_name:
+                        type: string
+                        description: The user's Twitter screen name
+                      logo:
+                        type: string
+                        description: The URL of the user's profile image
+                      banner:
+                        type: string
+                        description: The URL of the user's profile banner image
+                      profile_link_color:
+                        type: string
+                        description: The user's profile link color
+                      profile_text_color:
+                        type: string
+                        description: The user's profile text color
+        '404':
+          description: Not Found
