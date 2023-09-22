@@ -8,19 +8,13 @@ namespace WebApi.Controllers
 {
     public class TwitterController : ApiController
     {
-        private const string ConsumerKey = "CONSUMER_KEY";
-        private const string ConsumerSecret = "CONSUMER_SECRET";
-        private const string AccessToken = "ACCESS_TOKEN";
-        private const string AccessTokenSecret = "ACCESS_TOKEN_SECRET";
+        private readonly ITwitterClient _twitterClient;
+        private readonly FirebaseClient _firebaseClient;
 
-        public FirebaseClient FirebaseClient { get; set; }
-
-        public ITwitterClient TwitterClient { get; set; }
-
-        public TwitterController()
+        public TwitterController(ITwitterClient twitterClient, FirebaseClient firebaseClient)
         {
-            TwitterClient = new TwitterClient(new TwitterCredentials(ConsumerKey, ConsumerSecret, AccessToken, AccessTokenSecret));
-            FirebaseClient = new FirebaseClient("https://nodejs-express-demo.firebaseio.com/");
+            _twitterClient = twitterClient;
+            _firebaseClient = firebaseClient;
         }
 
         [HttpGet]
@@ -33,7 +27,7 @@ namespace WebApi.Controllers
                 {
                     MaximumNumberOfResults = 1
                 };
-                var searchResult = await TwitterClient.Search.SearchTweetsAsync(searchParameters);
+                var searchResult = await _twitterClient.Search.SearchTweetsAsync(searchParameters);
                 var userProfile = searchResult[0].CreatedBy;
 
                 var twitterSavedObj = new
@@ -46,7 +40,7 @@ namespace WebApi.Controllers
                     profile_text_color = userProfile.ProfileTextColor
                 };
 
-                await FirebaseClient.Child("twitter").Child(username).PutAsync(twitterSavedObj);
+                await _firebaseClient.Child("twitter").Child(username).PutAsync(twitterSavedObj);
 
                 return Ok(new[] { new { data = twitterSavedObj } });
             }
