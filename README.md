@@ -1,10 +1,10 @@
 # BitBitesBios2023 🚀
 
 ## Vragen?
-Heb je vragen of opmerkingen tijdens of na onze talk, post deze dan op [Twitter door deze link](https://twitter.com/intent/tweet?text=%7Bvraag%7D%20#bitsbitesbios2023%20@ShareValueNL).
+Heb je vragen of opmerkingen tijdens of na onze talk, post deze dan op [Twitter door deze link](http://twitter.com/intent/tweet?text=Stel%20je%20vraag%20@ShareValueNL%20&hashtags=bitsbitesbios2023).
 
 ```text
-{vraag} #bitsbitesbios2023 @ShareValueNL
+Stel je vraag @ShareValueNL #bitsbitesbios2023
 ```
 
 ---
