@@ -1,0 +1,8 @@
+Ray: Javascript > C# => Convert this code to a C# webapi controller
+Ray: Explain
+Marco: Refactor => Make it inject the Twitterclient and firebase client in c# 
+Marco: Refactor => Move the creation of twitterSavedObj to a method
+Marco: Unit tests  => Generate advanced unit tests for this controller 
+Marco: Unit tests  => using datasource and fluent assertion
+Marco: document code  => Document this code Using xml style documentations
+Marco: OpenAPI spec  => Generate an openapi spec file
