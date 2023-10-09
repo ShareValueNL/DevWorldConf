@@ -9,7 +9,9 @@ Stel je vraag @ShareValueNL #bitsbitesbios2023
 
 ---
 
-## Blogpost outline for converting a NodeJS API => .Net API
+## Blogpost outline for converting a NodeJS API => .NET API
+
+Dit is een voorbeeld van een prompt die je kan gebruiken als je een blog wilt schrijven over, hoe je een NodeJS API convert naar een .NET API. Deze structuur kan je natuurlijk voor ieder ander onderwerp gebruiken.
 
 ```text
 Create an outline for a blog post that guides .NET developers through the process of converting a NodeJS API to a .NET API. The outline should include an introduction, main sections with subsections, and a conclusion. Make sure to cover the following points:

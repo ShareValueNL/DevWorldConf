@@ -6,4 +6,4 @@ Marco: Unit tests  => Generate advanced unit tests for this controller
 Marco: Unit tests  => using datasource and fluent assertion
 Marco: document code  => Document this code Using xml style documentations
 Marco: OpenAPI spec  => Generate an openapi spec file
-Raymon: Blogpost outline => Write a blogpost how to convert a NodeJS API to .Net API
+Raymon: Blogpost outline => Write a blogpost how to convert a NodeJS API to .NET API
