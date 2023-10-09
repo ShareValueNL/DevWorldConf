@@ -9,6 +9,20 @@ Stel je vraag @ShareValueNL #bitsbitesbios2023
 
 ---
 
+## Blogpost outline for converting a NodeJS API => .Net API
+
+```text
+Create an outline for a blog post that guides .NET developers through the process of converting a NodeJS API to a .NET API. The outline should include an introduction, main sections with subsections, and a conclusion. Make sure to cover the following points:
+- Reasons to convert from NodeJS to .NET
+- Pre-requisites and tools needed
+- Code comparison between NodeJS and .NET
+- Step-by-step tutorial
+- Potential pitfalls and how to avoid them
+- Final thoughts and next steps
+```
+
+---
+
 ## Wat hebben wij gebruikt?
 
 ### Github Copilot (Chat)
