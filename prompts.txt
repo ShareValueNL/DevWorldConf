@@ -1,9 +1,18 @@
 Ray: Javascript > C# => Convert this code to a C# webapi controller
+=> Toon scenarion in powerpoint
 Ray: Explain
+=> Toon scenarion in powerpoint
 Marco: Refactor => Make it inject the Twitterclient and firebase client in c# 
+=> Toon scenarion in powerpoint
 Marco: Refactor => Move the creation of twitterSavedObj to a method
+=> Toon scenarion in powerpoint
 Marco: Unit tests  => Generate advanced unit tests for this controller 
+=> Toon scenarion in powerpoint
 Marco: Unit tests  => using datasource and fluent assertion
+=> Toon scenarion in powerpoint
 Marco: document code  => Document this code Using xml style documentations
+=> Toon scenarion in powerpoint
 Marco: OpenAPI spec  => Generate an openapi spec file
+=> Toon scenarion in powerpoint
 Raymon: Blogpost outline => Write a blogpost how to convert a NodeJS API to .NET API
+=> Toon scenarion in powerpoint
