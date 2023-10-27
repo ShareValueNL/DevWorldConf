@@ -1,3 +1,7 @@
+RUSTIG PRATEN!!
+Bing chat klaar zetten!
+
+
 Ray: Javascript > C# => Convert this code to a C# webapi controller
 => Toon scenarion in powerpoint
 Ray: Explain
@@ -16,3 +20,5 @@ Marco: document code  => Document this code Using xml style documentations
 => Toon scenarion in powerpoint
 Raymon: Blogpost outline => Write a blogpost how to convert a NodeJS API to .NET API
 => Toon scenarion in powerpoint
+
+Aangeven waarom we de blogpost in engels doen
