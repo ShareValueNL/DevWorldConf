@@ -22,3 +22,9 @@ Raymon: Blogpost outline => Write a blogpost how to convert a NodeJS API to .NET
 => Toon scenarion in powerpoint
 
 Aangeven waarom we de blogpost in engels doen
+
+Prompt verloting:
+
+Ik heb een lijst met namen van bezoekers van de Bits Bytes en Bios event 2023. Wij hebben 2 prijzen te verloten. De eerste prijs is een ".NET zomerhoedje", de tweede prijs zijn ".NET sokken". Kies 2 willekeurige namen en vertel wat ze hebben gewonnen. Vertel dat deze personen naar het podium kunnen om hun prijs op te halen.
+
+Dit is de lijst met namen:
