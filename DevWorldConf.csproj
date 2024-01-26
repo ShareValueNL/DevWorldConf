@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BitBitesBios\obj\" />
+    <Folder Include="DevWorldConf\obj\" />
   </ItemGroup>
 
 </Project>
